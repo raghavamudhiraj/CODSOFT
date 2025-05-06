@@ -1,25 +1,46 @@
-# CODSOFT - Java Number Guessing Game 🎯
+# CODSOFT Java Projects
 
-This is a simple console-based **Number Guessing Game** written in Java.
+This repository contains Java-based projects developed as part of the **CODSOFT Internship**. Each project is organized in its own folder with relevant source files and explanations.
 
-## 🚀 Features
+---
 
-- Random number between 1 and 100
-- Limited attempts per round (default: 7)
-- Feedback: "Too high", "Too low", or "Correct"
-- Score tracking based on rounds won
-- Option to play multiple rounds
+## 📁 Project1_NumberGuessingGame
 
-## 🛠️ How to Run
+A simple console game where the computer randomly selects a number, and the user tries to guess it. Features:
+- Limited number of attempts
+- Feedback if the guess is too high or too low
+- Scoring system and option to play multiple rounds
 
-### Requirements
+---
 
-- Java Development Kit (JDK) installed  
-  Check using: `java -version` and `javac -version`
+## 📁 Project2_StudentGradeCalculator
 
-### Steps
+A Java program that:
+- Takes marks from the user for each subject
+- Calculates total and average percentage
+- Assigns a grade based on the percentage
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/CODSOFT.git
-   cd CODSOFT
+---
+
+## 📁 Project3_StudentManagementSystem
+
+A console-based Student Management System where you can:
+- Add new students (with name, roll number, grade)
+- Display all students
+- Search for a student
+- Delete or update student records
+- (Optional) Save data to a file
+
+---
+
+## ✅ How to Run
+
+1. Clone or download the repository
+2. Navigate to any project folder
+3. Compile and run the `.java` files using any Java IDE or terminal
+
+Example:
+```bash
+javac Project1_NumberGuessingGame.java
+java Project1_NumberGuessingGame
+
